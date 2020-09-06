@@ -6,6 +6,7 @@
 
 dublin = { # hill of tara
     county = c_dublin
+    barony = b_droghade
 
     character_modifier = {
         stewardship  = 1
