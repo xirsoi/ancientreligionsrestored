@@ -1,0 +1,19 @@
+﻿texticon = {
+	icon = celtic_icon
+	iconsize = {
+		texture = "gfx/interface/icons/religion/gaelic_pagan.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = celtic_reformed_icon
+	iconsize = {
+		texture = "gfx/interface/icons/religion/gaelic_pagan_reformed.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}

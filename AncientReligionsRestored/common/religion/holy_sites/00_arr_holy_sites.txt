@@ -1,0 +1,109 @@
+﻿#############
+# Celtic #
+#############
+
+# gaelic
+
+dublin = { # hill of tara
+    county = c_dublin
+
+    character_modifier = {
+        stewardship  = 1
+    }
+}
+
+gowrie = { # the stone of scone
+    county = c_gowrie
+
+    character_modifier = {
+		cultural_head_fascination_mult = 0.05
+		monthly_county_control_change_factor = 0.05
+    }
+}
+
+anglesey = { # Anglesey was the location of a large congregation of Druids in ancient times
+    county = c_anglesey
+    barony = b_yns_mon
+
+    character_modifier = {
+        religious_vassal_opinion = 5
+        monthly_piety_gain_mult = 0.05
+    }
+}
+
+somerset = { # glastonbury tor
+    county = c_somerset
+
+    character_modifier = {
+        county_opinion_add = 10
+    }
+}
+
+# brythonic
+
+london = { # lugdunum
+    county = c_middlesex
+
+	character_modifier = {
+		martial_per_piety_level = 1
+		knight_effectiveness_mult = 0.1
+	}
+}
+
+vannes = { # standing stones
+    county = c_vannes
+
+    character_modifier = {
+        direct_vassal_opinion = 5
+    }
+}
+
+dijon = { # shrine to Sequana
+    county = c_dijon
+
+    character_modifier = {
+        development_growth_factor = 0.1
+        church_holding_build_gold_cost = -0.1
+    }
+}
+
+# britannic
+
+wiltshire = { # stonehenge
+    county = c_wiltshire
+
+    character_modifier = {
+        religious_vassal_opinion = 5
+        learning_per_piety_level = 1
+    }
+}
+
+# lugovism
+
+paris = {
+    county = c_ile_de_france
+
+    character_modifier = {
+        direct_vassal_opinion = 5
+    }
+}
+
+trier = {
+    county = c_trier
+}
+
+lippe = { # the externstein
+    county = c_lippe
+}
+
+bayeux = { # esuvii land
+    county = c_bayeux
+}
+
+guarda = { # artifacts related to Taranis have been found here
+    county = c_tui
+}
+
+karnten = { # ancient capital of the Celtic Kingdom of Noricum
+    county = c_karnten
+}
