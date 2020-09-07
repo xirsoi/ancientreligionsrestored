@@ -12,7 +12,9 @@
  god_danu_possessive:0 "Dannan"
  god_brigid:0 "Brigid"
  god_brigid_possessive:0 "Brigid's"
+
  holy_order_warriors_of_lugh:0 "Warriors of Lugh"
+
  celtic_priest_male:0 "druid"
  celtic_priest_male_plural:0 "druids"
  celtic_priest_female:0 "druidess"
@@ -22,16 +24,23 @@
  celtic_bishop_female:0 "chief druidess"
  celtic_bishop_female_plural:0 "chief druidesses"
  celtic_priest_alternate_plural:0 "druids"
+
  councillor_court_chaplain_celtic_county:1 "Druid"
  councillor_court_chaplain_celtic_county_possessive:1 "Druid's"
+ councillor_court_chaplain_celtic_county_female:1 "Druidess"
+ councillor_court_chaplain_celtic_county_female_possessive:1 "Druidess's"
  councillor_court_chaplain_celtic_duchy:1 "Chief Druid"
  councillor_court_chaplain_celtic_duchy_possessive:1 "Chief Druid's"
+ councillor_court_chaplain_celtic_duchy_female:1 "Chief Druidess"
+ councillor_court_chaplain_celtic_duchy_female_possessive:1 "Chief Druidess's"
  councillor_court_chaplain_celtic_kingdom:1 "High Druid"
  councillor_court_chaplain_celtic_kingdom_possessive:1 "High Druid's"
- councillor_court_chaplain_celtic_empire:0 "Divine Emperor"
- councillor_court_chaplain_celtic_empire_female:0 "Divine Empress"
- councillor_court_chaplain_celtic_empire_possessive:0 "Divine Emperor's"
- councillor_court_chaplain_celtic_empire_female_possessive:0 "Divine Empress's"
+ councillor_court_chaplain_celtic_kingdom_female:1 "High Druidess"
+ councillor_court_chaplain_celtic_kingdom_female_possessive:1 "High Druidess's"
+ councillor_court_chaplain_celtic_empire:0 "Grand High Druid"
+ councillor_court_chaplain_celtic_empire_possessive:0 "Grand High Druid's"
+ councillor_court_chaplain_celtic_empire_female:0 "Grand High Druidess"
+ councillor_court_chaplain_celtic_empire_female_possessive:0 "Grand High Druidess's"
 
  # holy sites
  holy_site_dublin_name:0 "Hill of Tara"
@@ -44,11 +53,13 @@
  holy_site_somerset_effect_name:0 "From [holy_site|E] #weak ($holy_site_somerset_name$)#!"
  holy_site_wiltshire_name:0 "Stonehenge"
  holy_site_wiltshire_effect_name:0 "From [holy_site|E] #weak ($holy_site_wiltshire_name$)#!"
+ holy_site_london_name:0 "London"
+ holy_site_london_effect_name:0 "From [holy_site|E] #weak ($holy_site_london_name$)#!"
 
 # gaelic
  gaelic_pagan:1 "Gaelic"
  gaelic_pagan_adj:2 "Gaelic"
- gaelic_pagan_desc:1 "The traditional religion of the Celtic people of Ireland, an expansive mythology of heroic god-kings fighting demons and establishing ordered kingdoms. Preserved initially via oral history then recorded by celtic monks, Gaelic belief lives on in the form of folk tales and ancient chronicles."
+ gaelic_pagan_desc:1 "The traditional religion of the Celtic people of Ireland, an expansive mythology of heroic god-kings invading Ireland, fighting demons, and establishing kingdoms. Preserved initially via oral history then recorded by Christian monks, Gaelic belief lives on in the form of folk tales and ancient chronicles."
  gaelic_pagan_adherent:2 "Gael"
  gaelic_pagan_adherent_plural:2 "Gaels"
  gaelic_pagan_old:1 "Old Gaelic"

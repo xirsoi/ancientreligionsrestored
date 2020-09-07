@@ -22,12 +22,12 @@
 	doctrine = doctrine_homosexuality_shunned
 	doctrine = doctrine_adultery_men_accepted
 	doctrine = doctrine_adultery_women_accepted
-	doctrine = doctrine_kinslaying_any_dynasty_crime
+	doctrine = doctrine_kinslaying_any_dynasty_member_crime
 	doctrine = doctrine_deviancy_shunned
 	doctrine = doctrine_witchcraft_accepted
 
 	#Clerical Functions
-	doctrine = doctrine_clerical_function_control
+	doctrine = doctrine_clerical_function_taxation
 	doctrine = doctrine_clerical_gender_either
 	doctrine = doctrine_clerical_marriage_allowed
 	doctrine = doctrine_clerical_succession_spiritual_fixed_appointment
@@ -87,8 +87,9 @@
 			holy_site = dublin
 			holy_site = anglesey
 			holy_site = gowrie
-			holy_site = london
+			holy_site = armagh
 			holy_site = somerset
+			holy_site = kent
 
 			doctrine = unreformed_faith_doctrine
 
@@ -174,8 +175,6 @@
 				WaterGodSheHe = CHARACTER_SHEHE_SHE
 				WaterGodHerHis = CHARACTER_HERHIS_HER
 				WaterGodHerHim = CHARACTER_HERHIM_HER
-
-
 
 				PantheonTerm = gaelic_pantheon_name
 				PantheonTermHasHave = pantheon_term_have

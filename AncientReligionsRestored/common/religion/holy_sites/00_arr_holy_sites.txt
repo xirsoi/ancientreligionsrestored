@@ -6,7 +6,7 @@
 
 dublin = { # hill of tara
     county = c_dublin
-    barony = b_droghade
+    #barony = b_drogheda
 
     character_modifier = {
         stewardship  = 1
@@ -36,7 +36,7 @@ somerset = { # glastonbury tor
     county = c_somerset
 
     character_modifier = {
-        county_opinion_add = 10
+		knight_effectiveness_mult = 0.1
     }
 }
 
