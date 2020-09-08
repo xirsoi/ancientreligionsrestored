@@ -1,20 +1,13 @@
-﻿l_english:
-# shared
+l_english:
+
+ #General
  celtic_religion:1 "Celtic"
  celtic_religion_adj:1 "Celtic"
  celtic_religion_adherent:1 "Celt"
  celtic_religion_adherent_plural:1 "Celts"
- celtic_religious_head_title_name:0 "Circle of Druids"
  celtic_religion_desc:1 "The Celtic religions are a varied but related group of faiths held by the widespread Celtic people of the ancient world. Despite their differences, all share a respect for the natural world and an appreciation for cleverness and bravery. The mother goddess Danu, warrior god Lugh, protector god Teutates, and thunder god Taranis are all popular in this religion."
- god_lugh:0 "Lugh"
- god_lugh_possessive:0 "Lugh's"
- god_danu:0 "Danu"
- god_danu_possessive:0 "Dannan"
- god_brigid:0 "Brigid"
- god_brigid_possessive:0 "Brigid's"
-
- holy_order_warriors_of_lugh:0 "Warriors of Lugh"
-
+ 
+ #Priesthood
  celtic_priest_male:0 "druid"
  celtic_priest_male_plural:0 "druids"
  celtic_priest_female:0 "druidess"
@@ -24,48 +17,58 @@
  celtic_bishop_female:0 "chief druidess"
  celtic_bishop_female_plural:0 "chief druidesses"
  celtic_priest_alternate_plural:0 "druids"
+ celtic_religious_head_title:0 "Archdruid"
+ celtic_religious_head_title_name:0 "Circle of Druids"
+ councillor_court_chaplain_celtic_county:0 "Court Druid"
+ councillor_court_chaplain_celtic_county_possessive:0 "Court Druid's"
+ councillor_court_chaplain_celtic_kingdom:0 "High Druid"
+ councillor_court_chaplain_celtic_kingdom_possessive:0 "High Druid's"
+ baron_theocracy_male_celtic:0 "Druid"
+ baron_theocracy_female_celtic:0 "Druidess"
+ duke_theocracy_male_celtic:0 "High Druid"
+ duke_theocracy_female_celtic:0 "High Druidess"
 
- councillor_court_chaplain_celtic_county:1 "Druid"
- councillor_court_chaplain_celtic_county_possessive:1 "Druid's"
- councillor_court_chaplain_celtic_county_female:1 "Druidess"
- councillor_court_chaplain_celtic_county_female_possessive:1 "Druidess's"
- councillor_court_chaplain_celtic_duchy:1 "Chief Druid"
- councillor_court_chaplain_celtic_duchy_possessive:1 "Chief Druid's"
- councillor_court_chaplain_celtic_duchy_female:1 "Chief Druidess"
- councillor_court_chaplain_celtic_duchy_female_possessive:1 "Chief Druidess's"
- councillor_court_chaplain_celtic_kingdom:1 "High Druid"
- councillor_court_chaplain_celtic_kingdom_possessive:1 "High Druid's"
- councillor_court_chaplain_celtic_kingdom_female:1 "High Druidess"
- councillor_court_chaplain_celtic_kingdom_female_possessive:1 "High Druidess's"
- councillor_court_chaplain_celtic_empire:0 "Grand High Druid"
- councillor_court_chaplain_celtic_empire_possessive:0 "Grand High Druid's"
- councillor_court_chaplain_celtic_empire_female:0 "Grand High Druidess"
- councillor_court_chaplain_celtic_empire_female_possessive:0 "Grand High Druidess's"
-
- # holy sites
- holy_site_dublin_name:0 "Hill of Tara"
- holy_site_dublin_effect_name:0 "From [holy_site|E] #weak ($holy_site_dublin_name$)#!"
- holy_site_gowrie_name:0 "Stone of Scone"
- holy_site_gowrie_effect_name:0 "From [holy_site|E] #weak ($holy_site_gowrie_name$)#!"
- holy_site_anglesey_name:0 "Isle of Anglesey"
+ #Holy Sites
+ holy_site_scone_name:0 "Scone"
+ holy_site_scone_effect_name:0 "From [holy_site|E] #weak ($holy_site_scone_name$)#!"
+ holy_site_brodgar_name:0 "Brodgar"
+ holy_site_brodgar_effect_name:0 "From [holy_site|E] #weak ($holy_site_brodgar_name$)#!"
+ holy_site_tara_name:0 "Tara"
+ holy_site_tara_effect_name:0 "From [holy_site|E] #weak ($holy_site_tara_name$)#!"
+ holy_site_nevet_name:0 "Névet"
+ holy_site_nevet_effect_name:0 "From [holy_site|E] #weak ($holy_site_nevet_name$)#!"
+ holy_site_anglesey_name:0 "Anglesey"
  holy_site_anglesey_effect_name:0 "From [holy_site|E] #weak ($holy_site_anglesey_name$)#!"
- holy_site_somerset_name:0 "Glastonbury Tor"
- holy_site_somerset_effect_name:0 "From [holy_site|E] #weak ($holy_site_somerset_name$)#!"
- holy_site_wiltshire_name:0 "Stonehenge"
- holy_site_wiltshire_effect_name:0 "From [holy_site|E] #weak ($holy_site_wiltshire_name$)#!"
- holy_site_london_name:0 "London"
- holy_site_london_effect_name:0 "From [holy_site|E] #weak ($holy_site_london_name$)#!"
-
-# gaelic
+ holy_site_bath_name:0 "Bath"
+ holy_site_bath_effect_name:0 "From [holy_site|E] #weak ($holy_site_bath_name$)#!"
+ holy_site_bibracte_name:0 "Bibracte"
+ holy_site_bibracte_effect_name:0 "From [holy_site|E] #weak ($holy_site_bibracte_name$)#!"
+ holy_site_glauberg_name:0 "Glauberg"
+ holy_site_glauberg_effect_name:0 "From [holy_site|E] #weak ($holy_site_glauberg_name$)#!"
+ holy_site_glanum_name:0 "Glanum"
+ holy_site_glanum_effect_name:0 "From [holy_site|E] #weak ($holy_site_glanum_name$)#!"
+ 
+ #Deities
+ god_lugh:0 "Lugh"
+ god_lugh_possessive:0 "Lugh's"
+ god_danu:0 "Danu"
+ god_danu_possessive:0 "Dannan"
+ god_brigid:0 "Brigid"
+ god_brigid_possessive:0 "Brigid's"
+ 
+ #Misc
+ holy_order_warriors_of_lugh:0 "Warriors of Lugh"
+ 
+ #Gaelic
  gaelic_pagan:1 "Gaelic"
  gaelic_pagan_adj:2 "Gaelic"
- gaelic_pagan_desc:1 "The traditional religion of the Celtic people of Ireland, an expansive mythology of heroic god-kings invading Ireland, fighting demons, and establishing kingdoms. Preserved initially via oral history then recorded by Christian monks, Gaelic belief lives on in the form of folk tales and ancient chronicles."
  gaelic_pagan_adherent:2 "Gael"
  gaelic_pagan_adherent_plural:2 "Gaels"
+ gaelic_pagan_desc:1 "The traditional religion of the Celtic people of Ireland, an expansive mythology of heroic god-kings invading Ireland, fighting demons, and establishing kingdoms. Preserved initially via oral history, then recorded by Christian monks, Gaelic belief lives on in the form of folk tales and ancient chronicles."
  gaelic_pagan_old:1 "Old Gaelic"
  gaelic_pagan_old_adj:2 "Old Gaelic"
  gaelic_pagan_old_adherent:2 "Old Gael"
- gaelic_pagan_old_adherent_plural:2 "Old Gael"
+ gaelic_pagan_old_adherent_plural:2 "Old Gaels"
  gaelic_pagan_religious_symbol:0 "triquetra"
  gaelic_pagan_religious_text:0 "the Béaloideas"
 
