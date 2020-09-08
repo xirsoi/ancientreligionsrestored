@@ -49,7 +49,7 @@
  holy_site_gowrie_effect_name:0 "From [holy_site|E] #weak ($holy_site_gowrie_name$)#!"
  holy_site_anglesey_name:0 "Isle of Anglesey"
  holy_site_anglesey_effect_name:0 "From [holy_site|E] #weak ($holy_site_anglesey_name$)#!"
- holy_site_somerset_name:0 "Glastonbury Tor"
+ holy_site_somerset_name:0 "Bath"
  holy_site_somerset_effect_name:0 "From [holy_site|E] #weak ($holy_site_somerset_name$)#!"
  holy_site_wiltshire_name:0 "Stonehenge"
  holy_site_wiltshire_effect_name:0 "From [holy_site|E] #weak ($holy_site_wiltshire_name$)#!"

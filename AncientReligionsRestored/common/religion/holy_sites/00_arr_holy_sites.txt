@@ -9,7 +9,7 @@ dublin = { # hill of tara
     #barony = b_drogheda
 
     character_modifier = {
-        stewardship  = 1
+        fertility = 0.10
     }
 }
 
@@ -17,8 +17,8 @@ gowrie = { # the stone of scone
     county = c_gowrie
 
     character_modifier = {
-		cultural_head_fascination_mult = 0.05
-		monthly_county_control_change_factor = 0.05
+		monthly_prestige_gain_mult = 0.05
+        short_reign_duration_mult = -0.25
     }
 }
 
@@ -27,16 +27,26 @@ anglesey = { # Anglesey was the location of a large congregation of Druids in an
     barony = b_yns_mon
 
     character_modifier = {
-        religious_vassal_opinion = 5
-        monthly_piety_gain_mult = 0.05
+        controlled_province_advantage = 5
+        naval_movement_speed_mult = 0.2
     }
 }
 
-somerset = { # glastonbury tor
+somerset = { # bath
     county = c_somerset
+    barony = b_bath
 
     character_modifier = {
-		knight_effectiveness_mult = 0.1
+		learning_per_piety_level = 1
+        sway_scheme_power_mult = 0.05
+    }
+}
+
+orkney = {
+    county = c_orkney
+
+    character_modifier = {
+        monthly_piety_gain_mult = 0.10
     }
 }
 
@@ -55,7 +65,7 @@ vannes = { # standing stones
     county = c_vannes
 
     character_modifier = {
-        direct_vassal_opinion = 5
+        monthly_county_control_change_factor = 0.10
     }
 }
 
@@ -65,6 +75,36 @@ dijon = { # shrine to Sequana
     character_modifier = {
         development_growth_factor = 0.1
         church_holding_build_gold_cost = -0.1
+    }
+}
+
+# gaulish
+
+bibracte = {
+    county = c_dijon
+    barony = b_autun
+
+    character_modifier = {
+        health = 0.10
+    }
+}
+
+glanum = {
+    county = c_venaissin
+    barony = b_avignon
+
+    character_modifier = {
+        cultural_head_fascination_mult = 0.05
+        different_culture_opinion = 5
+    }
+}
+
+glauberg = {
+    county = c_frankfurt
+
+    character_modifier = {
+		forest_advantage = 5
+        skirmishers_toughness_mult = 0.1
     }
 }
 
