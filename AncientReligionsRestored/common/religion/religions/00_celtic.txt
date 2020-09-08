@@ -33,7 +33,7 @@ celtic_religion = {
 	doctrine = doctrine_clerical_succession_spiritual_fixed_appointment
 	
 	traits = {
-		virtues = { brave just honest }
+		virtues = { brave just honest }												#The Celts were a warrior society and highly regarded loyalty and honor
 		sins = { craven arbitrary deceitful }
 	}
 	
