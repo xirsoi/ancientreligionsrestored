@@ -20,8 +20,8 @@
 
 	#Crimes
 	doctrine = doctrine_homosexuality_shunned
-	doctrine = doctrine_adultery_men_accepted
-	doctrine = doctrine_adultery_women_accepted
+	doctrine = doctrine_adultery_men_shunned
+	doctrine = doctrine_adultery_women_shunned
 	doctrine = doctrine_kinslaying_any_dynasty_member_crime
 	doctrine = doctrine_deviancy_shunned
 	doctrine = doctrine_witchcraft_accepted
@@ -33,8 +33,8 @@
 	doctrine = doctrine_clerical_succession_spiritual_fixed_appointment
 
 	traits = {
-		virtues = { just honest brave }
-		sins = { arbitrary deceitful craven }
+		virtues = { brave just honest }												#The Celts were a warrior society and highly regarded loyalty and honor
+		sins = { craven arbitrary deceitful }
 	}
 
 	custom_faith_icons = {
@@ -84,11 +84,11 @@
 			icon = gaelic_pagan
 			reformed_icon = gaelic_pagan_reformed
 
-			holy_site = dublin
-			holy_site = orkney
-			holy_site = gowrie
-			holy_site = armagh
 			holy_site = santiago
+			holy_site = armagh
+			holy_site = scone
+			holy_site = brodgar
+			holy_site = tara
 
 			doctrine = unreformed_faith_doctrine
 
@@ -221,22 +221,20 @@
 			icon = brythonic_pagan
 			reformed_icon = brythonic_pagan_reformed
 
-			holy_site = canterbury
-			holy_site = anglesey
 			holy_site = bath
-			holy_site = gowrie
-			holy_site = vannes
+			holy_site = kent
+			holy_site = anglesey
+			holy_site = nevet
+			holy_site = scone
 
 			doctrine = unreformed_faith_doctrine
 
 			doctrine = doctrine_gender_equal
 			doctrine = doctrine_monogamy
-			doctrine = doctrine_adultery_men_criminal
-			doctrine = doctrine_adultery_women_criminal
 
 			doctrine = tenet_sanctity_of_nature
 			doctrine = tenet_astrology
-			doctrine = tenet_unrelenting_faith
+			doctrine = tenet_unyielding_faith
 
 			localization = {
 				HighGodName = god_lugh
@@ -248,15 +246,15 @@
 				HighGodNameAlternatePossessive = god_lugh_epithet_possessive
 
 				#HealthGod
-				HealthGodName = god_dian_cecht
-				HealthGodNamePossessive = god_dian_cecht_possessive
+				HealthGodName = god_nodens
+				HealthGodNamePossessive = god_nodens_possessive
 				HealthGodSheHe = CHARACTER_SHEHE_HE
 				HealthGodHerHis = CHARACTER_HERHIS_HIS
 				HealthGodHerHim = CHARACTER_HERHIM_HIM
 
 				#FertilityGod
-				FertilityGodName = god_aengus
-				FertilityGodNamePossessive = god_aengus_possessive
+				FertilityGodName = god_cernunnos
+				FertilityGodNamePossessive = god_cernunnos_possessive
 				FertilityGodSheHe = CHARACTER_SHEHE_HE
 				FertilityGodHerHis = CHARACTER_HERHIS_HIS
 				FertilityGodHerHim = CHARACTER_HERHIM_HIM
@@ -269,8 +267,8 @@
 				WealthGodHerHim = CHARACTER_HERHIM_HER
 
 				#HouseholdGod
-				HouseholdGodName = god_brigid
-				HouseholdGodNamePossessive = god_brigid_possessive
+				HouseholdGodName = god_brigantia
+				HouseholdGodNamePossessive = god_brigantia_possessive
 				HouseholdGodSheHe = CHARACTER_SHEHE_SHE
 				HouseholdGodHerHis = CHARACTER_HERHIS_HER
 				HouseholdGodHerHim = CHARACTER_HERHIM_HER
@@ -290,34 +288,34 @@
 				KnowledgeGodHerHim = CHARACTER_HERHIM_HIM
 
 				#WarGod
-				WarGodName = god_morrigna
-				WarGodNamePossessive = god_morrigna_possessive
-				WarGodSheHe = CHARACTER_SHEHE_THEY
-				WarGodHerHis = CHARACTER_HERHIS_THEIR
-				WarGodHerHim = CHARACTER_HERHIM_THEM
+				WarGodName = god_andastre
+				WarGodNamePossessive = god_andastre_possessive
+				WarGodSheHe = CHARACTER_SHEHE_SHE
+				WarGodHerHis = CHARACTER_HERHIS_HER
+				WarGodHerHim = CHARACTER_HERHIM_HER
 
 				#TricksterGod
-				TricksterGodName = god_amadan_dubh
-				TricksterGodNamePossessive = god_amadan_dubh_possessive
+				TricksterGodName = god_gwydion
+				TricksterGodNamePossessive = god_gwydion_possessive
 				TricksterGodSheHe = CHARACTER_SHEHE_HE
 				TricksterGodHerHis = CHARACTER_HERHIS_HIS
 				TricksterGodHerHim = CHARACTER_HERHIM_HIM
 
 				#NightGod
-				NightGodName = god_donn
-				NightGodNamePossessive = god_donn_possessive
+				NightGodName = god_arianrhod
+				NightGodNamePossessive = god_arianrhod_possessive
 				NightGodSheHe = CHARACTER_SHEHE_HE
 				NightGodHerHis = CHARACTER_HERHIS_HIS
 				NightGodHerHim = CHARACTER_HERHIM_HIM
 
 				#WaterGod
-				WaterGodName = god_manannan
-				WaterGodNamePossessive = god_manannan_possessive
-				WaterGodSheHe = CHARACTER_SHEHE_SHE
-				WaterGodHerHis = CHARACTER_HERHIS_HER
-				WaterGodHerHim = CHARACTER_HERHIM_HER
+				WaterGodName = god_manawydan
+				WaterGodNamePossessive = god_manawydan_possessive
+				WaterGodSheHe = CHARACTER_SHEHE_HE
+				WaterGodHerHis = CHARACTER_HERHIS_HIS
+				WaterGodHerHim = CHARACTER_HERHIM_HIM
 
-				PantheonTerm = gaelic_pantheon_name
+				PantheonTerm = brythonic_pantheon_name
 				PantheonTermHasHave = pantheon_term_have
 				GoodGodNames = { god_lugh god_aengus god_brigid }
 
@@ -355,6 +353,132 @@
 				WitchGodHerHim = CHARACTER_HERHIM_HER
 				WitchGodMistressMaster = mistress
 				WitchGodMotherFather = mother
+			}
+		}
+
+		gaulish_pagan = {
+			color = { 0.14 0.36 0.16 }
+			icon = gaulish_pagan
+			reformed_icon = gaulish_pagan_reformed
+
+			holy_site = canterbury
+			holy_site = anglesey
+			holy_site = bath
+			holy_site = gowrie
+			holy_site = vannes
+
+			doctrine = unreformed_faith_doctrine
+
+			doctrine = doctrine_gender_equal
+			doctrine = doctrine_monogamy
+
+			doctrine = tenet_sanctity_of_nature
+			doctrine = tenet_astrology
+			doctrine = tenet_unyielding_faith
+
+			localization = {
+				HighGodName = god_esus
+				HighGodNamePossessive = god_esus_possessive
+				HighGodNameSheHe = CHARACTER_SHEHE_HE
+				HighGodHerselfHimself = CHARACTER_HIMSELF
+				HighGodHerHis = CHARACTER_HERHIS_HIS
+				HighGodNameAlternate = god_esus_epithet
+				HighGodNameAlternatePossessive = god_esus_epithet_possessive
+
+				#HealthGod
+				HealthGodName = god_sirona
+				HealthGodNamePossessive = god_sirona_possessive
+				HealthGodSheHe = CHARACTER_SHEHE_SHE
+				HealthGodHerHis = CHARACTER_HERHIS_HER
+				HealthGodHerHim = CHARACTER_HERHIM_HER
+
+				#FertilityGod
+				FertilityGodName = god_rosmerta
+				FertilityGodNamePossessive = god_rosmerta_possessive
+				FertilityGodSheHe = CHARACTER_SHEHE_SHE
+				FertilityGodHerHis = CHARACTER_HERHIS_HER
+				FertilityGodHerHim = CHARACTER_HERHIM_HER
+
+				#WealthGod
+				WealthGodName = god_toutatis
+				WealthGodNamePossessive = god_toutatis_possessive
+				WealthGodSheHe = CHARACTER_SHEHE_HE
+				WealthGodHerHis = CHARACTER_HERHIS_HIS
+				WealthGodHerHim = CHARACTER_HERHIM_HIM
+
+				#HouseholdGod
+				HouseholdGodName = god_ancamna
+				HouseholdGodNamePossessive = god_ancamna_possessive
+				HouseholdGodSheHe = CHARACTER_SHEHE_SHE
+				HouseholdGodHerHis = CHARACTER_HERHIS_HER
+				HouseholdGodHerHim = CHARACTER_HERHIM_HER
+
+				#FateGod
+				FateGodName = god_cathubodua
+				FateGodNamePossessive = god_cathubodua_possessive
+				FateGodSheHe = CHARACTER_SHEHE_SHE
+				FateGodHerHis = CHARACTER_HERHIS_HER
+				FateGodHerHim = CHARACTER_HERHIM_HER
+
+				#KnowledgeGod
+				KnowledgeGodName = god_belisama
+				KnowledgeGodNamePossessive = god_belisama_possessive
+				KnowledgeGodSheHe = CHARACTER_SHEHE_SHE
+				KnowledgeGodHerHis = CHARACTER_HERHIS_HER
+				KnowledgeGodHerHim = CHARACTER_HERHIM_HER
+
+				#WarGod
+				WarGodName = god_toutatis
+				WarGodNamePossessive = god_toutatis_possessive
+				WarGodSheHe = CHARACTER_SHEHE_HE
+				WarGodHerHis = CHARACTER_HERHIS_HIS
+				WarGodHerHim = CHARACTER_HERHIM_HIM
+
+				#WaterGod
+				WaterGodName = god_sequana
+				WaterGodNamePossessive = god_sequana_possessive
+				WaterGodSheHe = CHARACTER_SHEHE_SHE
+				WaterGodHerHis = CHARACTER_HERHIS_HER
+				WaterGodHerHim = CHARACTER_HERHIM_HER
+
+				PantheonTerm = gaulish_pantheon_name
+				PantheonTermHasHave = pantheon_term_have
+				GoodGodNames = { god_ogmios god_grannus god_smertrios god_taranus }
+
+				DevilName = god_sleeping_god
+				DevilNamePossessive = god_sleeping_god_possessive
+				DevilSheHe = CHARACTER_SHEHE_HE
+				DevilHerHis = CHARACTER_HERHIS_HIS
+				DevilHerselfHimself = CHARACTER_HIMSELF
+				EvilGodNames = { evil_god_sleeping_god }
+
+				HouseOfWorship = paganism_house_of_worship
+				HouseOfWorshipPlural = paganism_house_of_worship_plural
+				ReligiousSymbol = gaulish_religious_symbol
+				ReligiousText = gaulish_religious_text
+				ReligiousHeadName = gaulish_religious_head_title
+				DevoteeMale = gaulish_pagan_adherent
+				DevoteeMalePlural = gaulish_pagan_adherent_plural
+				DevoteeFemale = gaulish_pagan_adherent
+				DevoteeFemalePlural = gaulish_pagan_adherent_plural
+				DevoteeNeuter = gaulish_pagan_adherent
+				DevoteeNeuterPlural = gaulish_pagan_adherent_plural
+
+				DivineRealm = gaulish_positive_afterlife
+				PositiveAfterLife = gaulish_positive_afterlife
+				NegativeAfterLife = gaulish_negative_afterlive
+
+				DeathDeityName = god_cernunnos
+				DeathDeityNamePossessive = god_cernunnos_possessive
+				DeathDeitySheHe = CHARACTER_SHEHE_HE
+				DeathDeityHerHis = CHARACTER_HERHIS_HIS
+
+				WitchGodName = god_great_mothers
+				WitchGodHerHis = CHARACTER_HERHIS_THEIR
+				WitchGodSheHe = CHARACTER_SHEHE_THEY
+				WitchGodHerHim = CHARACTER_HERHIM_THEIR
+				WitchGodMistressMaster = mistresses
+				WitchGodMotherFather = mothers
 			}
 		}
 	}
