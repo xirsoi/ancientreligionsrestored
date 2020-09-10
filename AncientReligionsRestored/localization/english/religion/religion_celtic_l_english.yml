@@ -1,12 +1,11 @@
 l_english:
-
  #General
  celtic_religion:1 "Celtic"
  celtic_religion_adj:1 "Celtic"
  celtic_religion_adherent:1 "Celt"
  celtic_religion_adherent_plural:1 "Celts"
  celtic_religion_desc:1 "The Celtic religions are a varied but related group of faiths held by the widespread Celtic people of the ancient world. Despite their differences, all share a respect for the natural world and an appreciation for cleverness and bravery. The mother goddess Danu, warrior god Lugh, protector god Teutates, and thunder god Taranis are all popular in this religion."
- 
+
  #Priesthood
  celtic_priest_male:0 "druid"
  celtic_priest_male_plural:0 "druids"
@@ -47,7 +46,7 @@ l_english:
  holy_site_glauberg_effect_name:0 "From [holy_site|E] #weak ($holy_site_glauberg_name$)#!"
  holy_site_glanum_name:0 "Glanum"
  holy_site_glanum_effect_name:0 "From [holy_site|E] #weak ($holy_site_glanum_name$)#!"
- 
+
  #Deities
  god_lugh:0 "Lugh"
  god_lugh_possessive:0 "Lugh's"
@@ -55,10 +54,10 @@ l_english:
  god_danu_possessive:0 "Dannan"
  god_brigid:0 "Brigid"
  god_brigid_possessive:0 "Brigid's"
- 
+
  #Misc
  holy_order_warriors_of_lugh:0 "Warriors of Lugh"
- 
+
  #Gaelic
  gaelic_pagan:1 "Creideamh Sí"
  gaelic_pagan_adj:2 "Gaelic"
@@ -109,3 +108,72 @@ l_english:
  evil_god_bres:0 "Bres"
  evil_god_bres_possessive:0 "Bres'"
  evil_god_the_fomorians:0 "The Fomorians"
+
+ # Brythonic
+ god_andastre:0 "Andastre"
+ god_andastre_possessive:0 "Andastre's"
+ god_brigantia:0 "Brigantia"
+ god_brigantia:0 "Brigantia's"
+ god_manawydan:0 "Manawydan fab Lyr"
+ god_manawydan_possessive:0 "Manawydan's"
+ god_gwydion:0 "Gwydion"
+ god_gwydion_possessive:0 "Gwydion's"
+ god_nodens:0 "Nodens"
+ god_nodens_possessive:0 "Nodens'"
+ god_arianrhod:0 "Arianrhod"
+ god_arianrhod_possessive:0 "Arianrhod's"
+
+ # gaulish
+ gaulish_pagan:1 "Gaulish"
+ gaulish_pagan_adj:2 "Gaulish"
+ gaulish_pagan_desc:1 "The beliefs of the ancient peoples of Gaul, drawn out once again from Gallo-Roman syncretism. Much has been lost in the mists of time, but the faith is notable for its many paired gods, triple gods, and the gods of particular tribes."
+ gaulish_pagan_adherent:2 "Gaul"
+ gaulish_pagan_adherent_plural:2 "Gauls"
+ gaulish_pagan_old:1 "Old Gaulish"
+ gaulish_pagan_old_adj:2 "Old Gaulish"
+ gaulish_pagan_old_adherent:2 "Old Gaulish"
+ gaulish_pagan_old_adherent_plural:2 "Old Gauls"
+ gaulish_pagan_religious_symbol:0 "triskelion"
+ gaulish_pagan_religious_text:0 "the Tales"
+
+ gaulish_pagan_positive_afterlife:0 "Ande-Dubnos"
+ gaulish_pagan_negative_afterlive:0 "Ande-Dubnos"
+
+ gaulish_pantheon_name:1 "Deuognatoi"
+
+ god_esus:0 "Esus"
+ god_esus_possessive:0 "Esus's"
+ god_esus_epithet:0 "the Lord of the Gods"
+ god_esus_epithet_possessive:0 "The Lord of the Gods'"
+ god_sirona:0 "Ðirona"
+ god_sirona_possessive:0 "Ðirona's"
+ god_rosmerta:0 "Rosmerta"
+ god_rosmerta_possessive_desc:0 "Rosmerta's"
+ god_toutatis:0 "Toutatis"
+ god_toutatis_possessive_desc:0 "Toutatis's"
+ god_ancamna:0 "Ancamna"
+ god_ancamna_possessive:0 "Ancamna's"
+ god_cathubodua:0 "Cathubodua"
+ god_cathubodua_possessive:0 "Cathubodua's"
+ god_belisama:0 "Belisama"
+ god_belisama_possessive:0 "Belisama's"
+ god_sequana:0 "Sequana"
+ god_sequana_possessive:0 "Sequana's"
+ god_ogmios:0 "Ogmios"
+ god_ogmios_possessive:0 "Ogmios's"
+ god_grannus:0 "Grannus"
+ god_grannus_possessive:0 "Grannus's"
+ god_smertrios:0 "Smertrios"
+ god_smertrios_possessive:0 "Smertrios's"
+ god_taranus:0 "Taranus"
+ god_taranus_possessive:0 "Taranus's"
+ god_cernunnos:0 "Cernunnos"
+ god_cernunnos_possessive:0 "Cernunnos"
+ god_great_mothers:0 "The Great Mothers"
+ god_great_mothers_posessive:0 "The Great Mothers'"
+ god_sleeping_god:0 "The Sleeping God" #Plut. De Defect. 18
+ god_sleeping_god_possessive:0 "The Sleeping God's"
+ evil_god_sleeping_god:0 "The Sleeping God"
+
+ gaulish_devil_name:0 "The Sleeping God"
+ gaulish_devil_name_possessive:0 "The Sleeping God's"

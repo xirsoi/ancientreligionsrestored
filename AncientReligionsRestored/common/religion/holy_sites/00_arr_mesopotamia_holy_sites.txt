@@ -1,0 +1,50 @@
+﻿#############
+# Meso #
+#############
+
+# parsu
+
+niffar = { # uruk
+    county = c_batiha
+    barony = b_niffar
+
+    character_modifier = {
+        domain_limit = 1
+    }
+}
+
+babylon = { # babylon
+    county = c_kufa
+	barony = b_al-hila
+
+    character_modifier = {
+		build_gold_cost = -0.1
+   }
+}
+
+ninawa = { # Nineveh/Assur
+    county = c_ninive
+
+    character_modifier = {
+        martial = 1
+  	  	drylands_advantage = 5
+	  	  floodplains_advantage = 5
+    }
+}
+
+harran = { # Harran
+    county = c_harran
+
+    character_modifier = {
+        learning_per_piety_level = 1
+		    councillor_opinion = 10
+    }
+}
+
+uwal = { # dilmun
+    county = c_uwal
+
+    character_modifier = {
+        monthly_piety_gain_mult = 0.1
+    }
+}
