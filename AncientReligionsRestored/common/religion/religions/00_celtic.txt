@@ -33,7 +33,7 @@
 	doctrine = doctrine_clerical_succession_spiritual_fixed_appointment
 
 	traits = {
-		virtues = { brave just honest }												#The Celts were a warrior society and highly regarded loyalty and honor
+		virtues = { brave just honest }
 		sins = { craven arbitrary deceitful }
 	}
 
@@ -221,16 +221,18 @@
 			icon = brythonic_pagan
 			reformed_icon = brythonic_pagan_reformed
 
-			holy_site = bath
 			holy_site = kent
-			holy_site = anglesey
-			holy_site = nevet
 			holy_site = scone
+			holy_site = nevet
+			holy_site = anglesey
+			holy_site = bath
 
 			doctrine = unreformed_faith_doctrine
 
 			doctrine = doctrine_gender_equal
 			doctrine = doctrine_monogamy
+			doctrine = doctrine_divorce_approval
+			doctrine = doctrine_kinslaying_extended_family_crime
 
 			doctrine = tenet_sanctity_of_nature
 			doctrine = tenet_astrology
@@ -361,19 +363,20 @@
 			icon = gaulish_pagan
 			reformed_icon = gaulish_pagan_reformed
 
-			holy_site = canterbury
-			holy_site = anglesey
-			holy_site = bath
-			holy_site = gowrie
-			holy_site = vannes
+			holy_site = santiago
+			holy_site = nevet
+			holy_site = bibracte
+			holy_site = glauberg
+			holy_site = glanum
 
 			doctrine = unreformed_faith_doctrine
 
-			doctrine = doctrine_gender_equal
-			doctrine = doctrine_monogamy
+			doctrine = doctrine_pluralism_pluralistic
+			doctrine = doctrine_concubines
+			doctrine = doctrine_kinslaying_close_kin_crime
 
 			doctrine = tenet_sanctity_of_nature
-			doctrine = tenet_astrology
+			doctrine = tenet_reincarnation
 			doctrine = tenet_unyielding_faith
 
 			localization = {
