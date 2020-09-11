@@ -1,4 +1,4 @@
-#Celtic
+﻿#Celtic
 baron_theocracy_male_celtic = {
     type = character
     gender = male
