@@ -1,4 +1,4 @@
-166513 = {
+﻿166513 = {
 	name = "Argentocoxos"
 	dynasty = 1040011
 	martial = 7
