@@ -1,4 +1,4 @@
-##########
+﻿##########
 # Celtic #
 ##########
 
@@ -12,7 +12,7 @@
 scone = {
 	county = c_gowrie
 	#barony = b_coupar_angus
-	
+
 	character_modifier = {
 		name = holy_site_scone_effect_name
 		monthly_prestige_gain_mult = 0.05
@@ -22,7 +22,7 @@ scone = {
 
 brodgar = {
 	county = c_orkney
-	
+
 	character_modifier = {
 		name = holy_site_brodgar_effect_name
 		dynasty_opinion = 5
@@ -33,7 +33,7 @@ brodgar = {
 tara = {
 	county = c_dublin
 	#barony = b_drogheda
-	
+
 	character_modifier = {
 		name = holy_site_tara_effect_name
 		fertility = 0.10
@@ -49,7 +49,7 @@ tara = {
 
 nevet = {
 	county = c_cornouaille
-	
+
 	character_modifier = {
 		name = holy_site_nevet_effect_name
 		knight_effectiveness_mult = 0.2
@@ -58,7 +58,7 @@ nevet = {
 
 anglesey = {
 	county = c_anglesey
-	
+
 	character_modifier = {
 		name = holy_site_anglesey_effect_name
 		controlled_province_advantage = 5
@@ -68,7 +68,7 @@ anglesey = {
 
 bath = {
 	county = c_somerset
-	
+
 	character_modifier = {
 		name = holy_site_bath_effect_name
 		learning = 1
@@ -86,7 +86,7 @@ bath = {
 bibracte = {
 	county = c_chalon
 	barony = b_autun
-	
+
 	character_modifier = {
 		name = holy_site_bibracte_effect_name
 		health = 0.1
@@ -96,7 +96,7 @@ bibracte = {
 glauberg = {
 	county = c_marburg
 	barony = b_budingen
-	
+
 	character_modifier = {
 		name = holy_site_glauberg_effect_name
 		forest_advantage = 5
@@ -106,7 +106,7 @@ glauberg = {
 
 glanum = {
 	county = c_venaissin
-	
+
 	character_modifier = {
 		name = holy_site_glanum_effect_name
 		different_culture_opinion = 5
