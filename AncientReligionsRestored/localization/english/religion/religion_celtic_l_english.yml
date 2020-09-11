@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
  #General
  celtic_religion:1 "Celtic"
  celtic_religion_adj:1 "Celtic"
@@ -136,7 +136,7 @@ l_english:
  brythonic_pantheon_name:0 "the gods"
  brythonic_pagan:1 "Brythonic"
  brythonic_pagan_adj:2 "Brythonic"
- brythonic_pagan_desc:1 "The beliefs of the ancient peoples of Britain, drawn out once again from Gallo-Roman syncretism, Arthurian myth, and the stories still told by Welsh bards. It's characterized by tales of knights, magicians, and gods and goddesses of the land."
+ brythonic_pagan_desc:1 "The beliefs of the ancient peoples of Britain, drawn out once again from Romano-British syncretism, Arthurian myth, and the stories still told by Welsh bards. It's characterized by tales of knights, magicians, and gods and goddesses of the land."
  brythonic_pagan_adherent:2 "Briton"
  brythonic_pagan_adherent_plural:2 "Britons"
  brythonic_pagan_old:1 "Old Brythonic"
@@ -198,9 +198,12 @@ l_english:
  god_cernunnos_possessive:0 "Cernunnos"
  god_great_mothers:0 "The Great Mothers"
  god_great_mothers_posessive:0 "The Great Mothers'"
+ god_abnoba:0 "Abnoba"
+ god_abnoba_possessive:0 "Abnoba's"
+ god_modon:0 "Modon"
+ god_modon_possessive:0 "Modon's"
  god_sleeping_god:0 "The Sleeping God" #Plut. De Defect. 18
  god_sleeping_god_possessive:0 "The Sleeping God's"
  evil_god_sleeping_god:0 "The Sleeping God"
-
  gaulish_devil_name:0 "The Sleeping God"
  gaulish_devil_name_possessive:0 "The Sleeping God's"

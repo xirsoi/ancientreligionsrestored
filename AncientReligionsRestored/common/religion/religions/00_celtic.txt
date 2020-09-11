@@ -38,7 +38,7 @@
 	}
 
 	custom_faith_icons = {
-		custom_faith_1 custom_faith_2 custom_faith_3 custom_faith_4 custom_faith_5 custom_faith_6 custom_faith_7 custom_faith_8 custom_faith_9 custom_faith_10 dualism_custom_1 zoroastrian_custom_1 zoroastrian_custom_2 buddhism_custom_1 buddhism_custom_2 buddhism_custom_3 buddhism_custom_4 taoism_custom_1 yazidi_custom_1 sunni_custom_2 sunni_custom_3 sunni_custom_4 ibadi_custom muhakkima_1 muhakkima_2 muhakkima_4 muhakkima_5 muhakkima_6 judaism_custom_1
+		custom_faith_1 custom_faith_2 custom_faith_3 custom_faith_4 custom_faith_5 custom_faith_6 custom_faith_7 custom_faith_8 custom_faith_9 custom_faith_10 dualism_custom_1 zoroastrian_custom_1 zoroastrian_custom_2 buddhism_custom_1 buddhism_custom_2 buddhism_custom_3 buddhism_custom_4 taoism_custom_1 yazidi_custom_1 sunni_custom_2 sunni_custom_3 sunni_custom_4 ibadi_custom muhakkima_1 muhakkima_2 muhakkima_4 muhakkima_5 muhakkima_6 judaism_custom_1 boar_green_red boar_green_yellow boar_grey_red carolingian_cross carolingian_cross_reformed
 	}
 
 	holy_order_names = {
@@ -61,6 +61,7 @@
 		GHWName = ghw_great_holy_war
 		GHWNamePlural = ghw_great_holy_wars
 
+		ReligiousHeadName = celtic_religious_head_title
 		ReligiousHeadTitleName = celtic_religious_head_title_name
 
 		PriestMale = celtic_priest_male
@@ -189,8 +190,9 @@
 				HouseOfWorship = paganism_house_of_worship
 				HouseOfWorshipPlural = paganism_house_of_worship_plural
 				ReligiousSymbol = gaelic_religious_symbol
+				ReligiousHeadName = celtic_religious_head_title
+				ReligiousHeadTitleName = celtic_religious_head_title_name
 				ReligiousText = gaelic_religious_text
-				ReligiousHeadName = gaelic_religious_head_title
 				DevoteeMale = gaelic_pagan_adherent
 				DevoteeMalePlural = gaelic_pagan_adherent_plural
 				DevoteeFemale = gaelic_pagan_adherent
@@ -237,7 +239,7 @@
 
 			doctrine = tenet_sanctity_of_nature
 			doctrine = tenet_astrology
-			doctrine = tenet_unyielding_faith
+			doctrine = tenet_unrelenting_faith
 
 			localization = {
 				HighGodName = god_lugh
@@ -379,7 +381,7 @@
 
 			doctrine = tenet_sanctity_of_nature
 			doctrine = tenet_reincarnation
-			doctrine = tenet_unrelenting_faith
+			doctrine = tenet_warmonger
 
 			localization = {
 				HighGodName = god_esus
@@ -439,6 +441,20 @@
 				WarGodHerHis = CHARACTER_HERHIS_HIS
 				WarGodHerHim = CHARACTER_HERHIM_HIM
 
+				#TricksterGod
+				TricksterGodName = god_gwydion
+				TricksterGodNamePossessive = god_gwydion_possessive
+				TricksterGodSheHe = CHARACTER_SHEHE_HE
+				TricksterGodHerHis = CHARACTER_HERHIS_HIS
+				TricksterGodHerHim = CHARACTER_HERHIM_HIM
+
+				#NightGod
+				NightGodName = god_abnoba
+				NightGodNamePossessive = god_abnoba_possessive
+				NightGodSheHe = CHARACTER_SHEHE_HE
+				NightGodHerHis = CHARACTER_HERHIS_HIS
+				NightGodHerHim = CHARACTER_HERHIM_HIM
+
 				#WaterGod
 				WaterGodName = god_sequana
 				WaterGodNamePossessive = god_sequana_possessive
@@ -461,7 +477,8 @@
 				HouseOfWorshipPlural = paganism_house_of_worship_plural
 				ReligiousSymbol = gaulish_religious_symbol
 				ReligiousText = gaulish_religious_text
-				ReligiousHeadName = gaulish_religious_head_title
+				ReligiousHeadName = celtic_religious_head_title
+				ReligiousHeadTitleName = celtic_religious_head_title_name
 				DevoteeMale = gaulish_pagan_adherent
 				DevoteeMalePlural = gaulish_pagan_adherent_plural
 				DevoteeFemale = gaulish_pagan_adherent
