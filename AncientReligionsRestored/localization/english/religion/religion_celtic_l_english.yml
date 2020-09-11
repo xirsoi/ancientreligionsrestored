@@ -114,6 +114,8 @@
  # Brythonic
  god_andastre:0 "Andastre"
  god_andastre_possessive:0 "Andastre's"
+ god_brigantia:0 "Brigantia"
+ god_brigantia_possessive:0 "Brigantia's"
  god_nantosuelta:0 "Nantosuelta"
  god_nantosuelta_possessive:0 "Nantosuelta's"
  god_manawydan:0 "Manawydan fab Lyr"
@@ -134,12 +136,12 @@
  evil_god_hafgan_possessive:0 "Hafgan's"
 
  brythonic_pantheon_name:0 "the gods"
- brythonic_pagan:1 "Brythonic"
+ brythonic_pagan:1 "Fydduwiau"
  brythonic_pagan_adj:2 "Brythonic"
  brythonic_pagan_desc:1 "The beliefs of the ancient peoples of Britain, drawn out once again from Romano-British syncretism, Arthurian myth, and the stories still told by Welsh bards. It's characterized by tales of knights, magicians, and gods and goddesses of the land."
  brythonic_pagan_adherent:2 "Briton"
  brythonic_pagan_adherent_plural:2 "Britons"
- brythonic_pagan_old:1 "Old Brythonic"
+ brythonic_pagan_old:1 "Old Fydduwiau"
  brythonic_pagan_old_adj:2 "Old Brythonic"
  brythonic_pagan_old_adherent:2 "Old Briton"
  brythonic_pagan_old_adherent_plural:2 "Old Britons"
@@ -151,12 +153,12 @@
  brythonic_pagan_negative_afterlive:0 "Caer Sidi"
 
  # gaulish
- gaulish_pagan:1 "Gaulish"
+ gaulish_pagan:1 "Andedionism"
  gaulish_pagan_adj:2 "Gaulish"
  gaulish_pagan_desc:1 "The beliefs of the ancient peoples of Gaul, drawn out once again from Gallo-Roman syncretism. Much has been lost in the mists of time, but the faith is notable for its many paired gods, triple gods, and the gods of particular tribes."
  gaulish_pagan_adherent:2 "Gaul"
  gaulish_pagan_adherent_plural:2 "Gauls"
- gaulish_pagan_old:1 "Old Gaulish"
+ gaulish_pagan_old:1 "Old Andedionism"
  gaulish_pagan_old_adj:2 "Old Gaulish"
  gaulish_pagan_old_adherent:2 "Old Gaul"
  gaulish_pagan_old_adherent_plural:2 "Old Gauls"
