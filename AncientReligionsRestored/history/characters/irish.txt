@@ -1,4 +1,4 @@
-#######################################################
+﻿#######################################################
 # PRE-NORMAN INVASION - (Died on or before 1167.1.1)
 #######################################################
 #	Insular Christianity is applied for almost everyone in this date bracket.
@@ -6521,7 +6521,7 @@
 		birth = "1027.1.1"
 		effect = {
 			add_character_flag = has_scripted_appearance
-		}	
+		}
 	}
 	1068.7.1 = {
 		death = "1068.7.1"
@@ -8651,7 +8651,7 @@
 		death = "915.1.1"
 	}
 }
-	
+
 165009 = {
 	name = "A_ed" #Áed mac Flann Sinna
 	dynasty_house = house_british_isles_neill
@@ -17161,7 +17161,7 @@
 	religion = insular_celtic
 	culture = irish
 	father = 217321
-	
+
 	731.1.1 = { # unkown
 		birth = yes
 	}
@@ -18819,7 +18819,7 @@
 	1258.7.1 = {
 		death = "1258.7.1"
 	}
-}	
+}
 
 83059 = {
 	name = "Domnall"
@@ -18837,7 +18837,7 @@
 	1281.7.1 = {
 		death = "1281.7.1"
 	}
-}	
+}
 
 83060 = {
 	name = "Ruaidri"
@@ -18898,7 +18898,7 @@
 	1303.7.1 = {
 		death = "1303.7.1"
 	}
-}	
+}
 
 
 83063 = {
@@ -18917,7 +18917,7 @@
 	1342.7.1 = {
 		death = "1342.7.1"
 	}
-}	
+}
 
 83064 = {
 	name = "Feidlimid"
@@ -18935,7 +18935,7 @@
 	1356.7.1 = {
 		death = "1356.7.1"
 	}
-}		
+}
 
 83065 = {
 	name = "Niall"
@@ -18953,7 +18953,7 @@
 	1348.7.1 = {
 		death = "1348.7.1"
 	}
-}		
+}
 
 83066 = {
 	name = "Donnchad"
@@ -18971,7 +18971,7 @@
 	1346.7.1 = {
 		death = "1346.7.1"
 	}
-}		
+}
 
 83067 = {
 	name = "Art"
@@ -18989,7 +18989,7 @@
 	1333.7.1 = {
 		death = "1333.7.1"
 	}
-}		
+}
 
 83068 = {
 	name = "Magnus"
@@ -19007,7 +19007,7 @@
 	1363.7.1 = {
 		death = "1363.7.1"
 	}
-}		
+}
 
 83069 = {
 	name = "A_engus"
@@ -19025,7 +19025,7 @@
 	1352.7.1 = {
 		death = "1352.7.1"
 	}
-}	
+}
 
 83070 = {
 	name = "SeaA_n"
@@ -19043,7 +19043,7 @@
 	1380.7.1 = {
 		death = "1380.7.1"
 	}
-}		
+}
 
 83071 = {
 	name = "Toirrdelbach"
@@ -21261,7 +21261,7 @@
 	}
 }
 
-454131 = {  	
+454131 = {
 	name = "Margaret"
 	female = yes
 	dynasty_house = house_british_isles_briain

@@ -41,7 +41,7 @@ tara = {
 }
 
 lugo = {
-	county = c_santiago
+	county = c_astorga
 	barony = b_lugo
 
 	character_modifier = {

@@ -28,6 +28,10 @@
  god_nabu_possessive:0 "Nabu's"
  god_ninurta:0 "Ninurta"
  god_ninurta_possessive:0 "Ninurta's"
+ god_lahmu:0 "Lahmu"
+ god_lahmu_possessive:0 "Lahmu's"
+ god_annunaki:0 "the Annunaki"
+ god_annunaki_possessive:0 "the Annunaki's"
  evil_god_pazuzu:0 "Pazuzu"
  evil_god_pazuzu_possessive:0 "Pazuzu's"
  holy_order_hunters_of_ninurta:0 "Hunters of Ninurta"
@@ -66,7 +70,7 @@
  holy_site_uwal_name:0 "Dilmun"
  holy_site_uwal_effect_name:0 "From [holy_site|E] #weak ($holy_site_uwal_name$)#!"
 
-# gaelic
+# parsu
  parsu_pagan:1 "Parsu"
  parsu_pagan_adj:2 "Parsu"
  parsu_pagan_desc:1 "'Parsu' refers to the religious duty of those who worship the great Igigi and Annunaki gods, but also the fundamental obligations or 'me's central to the Mesopotamian worldview. This faith represents a religion based largely on Neo-Babylonian deities and cultic practices."
