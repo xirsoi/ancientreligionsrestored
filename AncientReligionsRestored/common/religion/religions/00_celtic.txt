@@ -38,7 +38,7 @@
 	}
 
 	custom_faith_icons = {
-		custom_faith_1 custom_faith_2 custom_faith_3 custom_faith_4 custom_faith_5 custom_faith_6 custom_faith_7 custom_faith_8 custom_faith_9 custom_faith_10 dualism_custom_1 zoroastrian_custom_1 zoroastrian_custom_2 buddhism_custom_1 buddhism_custom_2 buddhism_custom_3 buddhism_custom_4 taoism_custom_1 yazidi_custom_1 sunni_custom_2 sunni_custom_3 sunni_custom_4 ibadi_custom muhakkima_1 muhakkima_2 muhakkima_4 muhakkima_5 muhakkima_6 judaism_custom_1
+		custom_faith_1 custom_faith_2 custom_faith_3 custom_faith_4 custom_faith_5 custom_faith_6 custom_faith_7 custom_faith_8 custom_faith_9 custom_faith_10 dualism_custom_1 zoroastrian_custom_1 zoroastrian_custom_2 buddhism_custom_1 buddhism_custom_2 buddhism_custom_3 buddhism_custom_4 taoism_custom_1 yazidi_custom_1 sunni_custom_2 sunni_custom_3 sunni_custom_4 ibadi_custom muhakkima_1 muhakkima_2 muhakkima_4 muhakkima_5 muhakkima_6 judaism_custom_1 boar_green_red boar_green_yellow boar_grey_red carolingian_cross carolingian_cross_reformed
 	}
 
 	holy_order_names = {
@@ -61,6 +61,7 @@
 		GHWName = ghw_great_holy_war
 		GHWNamePlural = ghw_great_holy_wars
 
+		ReligiousHeadName = celtic_religious_head_title
 		ReligiousHeadTitleName = celtic_religious_head_title_name
 
 		PriestMale = celtic_priest_male
@@ -84,7 +85,7 @@
 			icon = gaelic_pagan
 			reformed_icon = gaelic_pagan_reformed
 
-			holy_site = santiago
+			holy_site = lugo
 			holy_site = armagh
 			holy_site = scone
 			holy_site = brodgar
@@ -189,8 +190,9 @@
 				HouseOfWorship = paganism_house_of_worship
 				HouseOfWorshipPlural = paganism_house_of_worship_plural
 				ReligiousSymbol = gaelic_religious_symbol
+				ReligiousHeadName = celtic_religious_head_title
+				ReligiousHeadTitleName = celtic_religious_head_title_name
 				ReligiousText = gaelic_religious_text
-				ReligiousHeadName = gaelic_religious_head_title
 				DevoteeMale = gaelic_pagan_adherent
 				DevoteeMalePlural = gaelic_pagan_adherent_plural
 				DevoteeFemale = gaelic_pagan_adherent
@@ -217,7 +219,8 @@
 		}
 
 		brythonic_pagan = {
-			color = { 0.14 0.36 0.16 }
+			#222, 124, 124
+			color = { 0.87 0.48 0.48 }
 			icon = brythonic_pagan
 			reformed_icon = brythonic_pagan_reformed
 
@@ -236,7 +239,7 @@
 
 			doctrine = tenet_sanctity_of_nature
 			doctrine = tenet_astrology
-			doctrine = tenet_unyielding_faith
+			doctrine = tenet_unrelenting_faith
 
 			localization = {
 				HighGodName = god_lugh
@@ -262,29 +265,29 @@
 				FertilityGodHerHim = CHARACTER_HERHIM_HIM
 
 				#WealthGod
-				WealthGodName = god_aine
-				WealthGodNamePossessive = god_aine_possessive
+				WealthGodName = god_senuna
+				WealthGodNamePossessive = god_senuna_possessive
 				WealthGodSheHe = CHARACTER_SHEHE_SHE
 				WealthGodHerHis = CHARACTER_HERHIS_HER
 				WealthGodHerHim = CHARACTER_HERHIM_HER
 
 				#HouseholdGod
-				HouseholdGodName = god_brigantia
-				HouseholdGodNamePossessive = god_brigantia_possessive
+				HouseholdGodName = god_nantosuelta
+				HouseholdGodNamePossessive = god_nantosuelta_possessive
 				HouseholdGodSheHe = CHARACTER_SHEHE_SHE
 				HouseholdGodHerHis = CHARACTER_HERHIS_HER
 				HouseholdGodHerHim = CHARACTER_HERHIM_HER
 
 				#FateGod
-				FateGodName = god_badb
-				FateGodNamePossessive = god_badb_possessive
+				FateGodName = god_grannus
+				FateGodNamePossessive = god_grannus_possessive
 				FateGodSheHe = CHARACTER_SHEHE_SHE
 				FateGodHerHis = CHARACTER_HERHIS_HER
 				FateGodHerHim = CHARACTER_HERHIM_HER
 
 				#KnowledgeGod
-				KnowledgeGodName = god_ogma
-				KnowledgeGodNamePossessive = god_ogma_possessive
+				KnowledgeGodName = god_sulis
+				KnowledgeGodNamePossessive = god_sulis_possessive
 				KnowledgeGodSheHe = CHARACTER_SHEHE_HE
 				KnowledgeGodHerHis = CHARACTER_HERHIS_HIS
 				KnowledgeGodHerHim = CHARACTER_HERHIM_HIM
@@ -319,37 +322,37 @@
 
 				PantheonTerm = brythonic_pantheon_name
 				PantheonTermHasHave = pantheon_term_have
-				GoodGodNames = { god_lugh god_aengus god_brigid }
+				GoodGodNames = { god_lugh god_epona god_brigantia }
 
-				DevilName = god_balor
-				DevilNamePossessive = god_balor_possessive
-				DevilSheHe = CHARACTER_SHEHE_HE
-				DevilHerHis = CHARACTER_HERHIS_HIS
-				DevilHerselfHimself = CHARACTER_HIMSELF
-				EvilGodNames = { evil_god_bres evil_god_carman god_the_fomorians }
+				DevilName = god_morgan_le_fey
+				DevilNamePossessive = god_morgan_le_fey_possessive
+				DevilSheHe = CHARACTER_SHEHE_SHE
+				DevilHerHis = CHARACTER_HERHIS_HER
+				DevilHerselfHimself = CHARACTER_HERSELF
+				EvilGodNames = { god_morgan_le_fey evil_god_hafgan }
 
 				HouseOfWorship = paganism_house_of_worship
 				HouseOfWorshipPlural = paganism_house_of_worship_plural
-				ReligiousSymbol = gaelic_religious_symbol
-				ReligiousText = gaelic_religious_text
-				ReligiousHeadName = gaelic_religious_head_title
-				DevoteeMale = gaelic_pagan_adherent
-				DevoteeMalePlural = gaelic_pagan_adherent_plural
-				DevoteeFemale = gaelic_pagan_adherent
-				DevoteeFemalePlural = gaelic_pagan_adherent_plural
-				DevoteeNeuter = gaelic_pagan_adherent
-				DevoteeNeuterPlural = gaelic_pagan_adherent_plural
+				ReligiousSymbol = brythonic_religious_symbol
+				ReligiousText = brythonic_religious_text
+				ReligiousHeadName = brythonic_religious_head_title
+				DevoteeMale = brythonic_pagan_adherent
+				DevoteeMalePlural = brythonic_pagan_adherent_plural
+				DevoteeFemale = brythonic_pagan_adherent
+				DevoteeFemalePlural = brythonic_pagan_adherent_plural
+				DevoteeNeuter = brythonic_pagan_adherent
+				DevoteeNeuterPlural = brythonic_pagan_adherent_plural
 
-				DivineRealm = gaelic_positive_afterlife
-				PositiveAfterLife = gaelic_positive_afterlife
-				NegativeAfterLife = gaelic_negative_afterlive
+				DivineRealm = brythonic_pagan_divine_realm
+				PositiveAfterLife = brythonic_pagan_positive_afterlife
+				NegativeAfterLife = brythonic_pagan_negative_afterlive
 
-				DeathDeityName = god_dagda
-				DeathDeityNamePossessive = god_dagda_possessive
+				DeathDeityName = god_arawn
+				DeathDeityNamePossessive = god_arawn_possessive
 				DeathDeitySheHe = CHARACTER_SHEHE_HE
 				DeathDeityHerHis = CHARACTER_HERHIS_HIS
 
-				WitchGodName = god_cerridwen
+				WitchGodName = god_morgan_le_fey
 				WitchGodHerHis = CHARACTER_HERHIS_HER
 				WitchGodSheHe = CHARACTER_SHEHE_SHE
 				WitchGodHerHim = CHARACTER_HERHIM_HER
@@ -359,11 +362,12 @@
 		}
 
 		gaulish_pagan = {
-			color = { 0.14 0.36 0.16 }
+			# 130, 152, 237
+			color = { 0.5 0.59 0.92 }
 			icon = gaulish_pagan
 			reformed_icon = gaulish_pagan_reformed
 
-			holy_site = santiago
+			holy_site = lugo
 			holy_site = nevet
 			holy_site = bibracte
 			holy_site = glauberg
@@ -377,7 +381,7 @@
 
 			doctrine = tenet_sanctity_of_nature
 			doctrine = tenet_reincarnation
-			doctrine = tenet_unyielding_faith
+			doctrine = tenet_warmonger
 
 			localization = {
 				HighGodName = god_esus
@@ -437,6 +441,20 @@
 				WarGodHerHis = CHARACTER_HERHIS_HIS
 				WarGodHerHim = CHARACTER_HERHIM_HIM
 
+				#TricksterGod
+				TricksterGodName = god_gwydion
+				TricksterGodNamePossessive = god_gwydion_possessive
+				TricksterGodSheHe = CHARACTER_SHEHE_HE
+				TricksterGodHerHis = CHARACTER_HERHIS_HIS
+				TricksterGodHerHim = CHARACTER_HERHIM_HIM
+
+				#NightGod
+				NightGodName = god_abnoba
+				NightGodNamePossessive = god_abnoba_possessive
+				NightGodSheHe = CHARACTER_SHEHE_HE
+				NightGodHerHis = CHARACTER_HERHIS_HIS
+				NightGodHerHim = CHARACTER_HERHIM_HIM
+
 				#WaterGod
 				WaterGodName = god_sequana
 				WaterGodNamePossessive = god_sequana_possessive
@@ -459,7 +477,8 @@
 				HouseOfWorshipPlural = paganism_house_of_worship_plural
 				ReligiousSymbol = gaulish_religious_symbol
 				ReligiousText = gaulish_religious_text
-				ReligiousHeadName = gaulish_religious_head_title
+				ReligiousHeadName = celtic_religious_head_title
+				ReligiousHeadTitleName = celtic_religious_head_title_name
 				DevoteeMale = gaulish_pagan_adherent
 				DevoteeMalePlural = gaulish_pagan_adherent_plural
 				DevoteeFemale = gaulish_pagan_adherent
