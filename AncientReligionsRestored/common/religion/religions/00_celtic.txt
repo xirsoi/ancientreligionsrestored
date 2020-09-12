@@ -220,7 +220,7 @@
 
 		brythonic_pagan = {
 			#222, 124, 124
-			color = { 0.87 0.48 0.48 }
+			color = { 0.95 0.48 0.48 }
 			icon = brythonic_pagan
 			reformed_icon = brythonic_pagan_reformed
 
@@ -363,7 +363,7 @@
 
 		gaulish_pagan = {
 			# 130, 152, 237
-			color = { 0.5 0.59 0.92 }
+			color = { 0.55 0.64 0.97 }
 			icon = gaulish_pagan
 			reformed_icon = gaulish_pagan_reformed
 
