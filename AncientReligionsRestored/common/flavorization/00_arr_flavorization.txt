@@ -1,0 +1,75 @@
+﻿#Celtic
+baron_theocracy_male_celtic = {
+    type = character
+    gender = male
+    special = holder
+    tier = barony
+    priority = 7
+    governments = { theocracy_government }
+    religions = { celtic_religion }
+}
+baron_theocracy_female_celtic = {
+    type = character
+    gender = female
+    special = holder
+    tier = barony
+    priority = 7
+    governments = { theocracy_government }
+    religions = { celtic_religion }
+}
+duke_theocracy_male_celtic = {
+    type = character
+    gender = male
+    special = holder
+    tier = duchy
+    priority = 27
+    governments = { theocracy_government }
+    religions = { celtic_religion }
+}
+duke_theocracy_female_celtic = {
+    type = character
+    gender = female
+    special = holder
+    tier = duchy
+    priority = 27
+    governments = { theocracy_government }
+    religions = { celtic_religion }
+}
+
+#Mesopotamian
+baron_theocracy_male_mesopotamian = {
+    type = character
+    gender = male
+    special = holder
+    tier = barony
+    priority = 7
+    governments = { theocracy_government }
+    religions = { mesopotamian_religion }
+}
+baron_theocracy_female_mesopotamian = {
+    type = character
+    gender = female
+    special = holder
+    tier = barony
+    priority = 7
+    governments = { theocracy_government }
+    religions = { mesopotamian_religion }
+}
+duke_theocracy_male_mesopotamian = {
+    type = character
+    gender = male
+    special = holder
+    tier = duchy
+    priority = 27
+    governments = { theocracy_government }
+    religions = { mesopotamian_religion }
+}
+duke_theocracy_female_mesopotamian = {
+    type = character
+    gender = female
+    special = holder
+    tier = duchy
+    priority = 27
+    governments = { theocracy_government }
+    religions = { mesopotamian_religion }
+}

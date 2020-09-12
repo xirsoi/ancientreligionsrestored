@@ -1,110 +1,126 @@
-﻿#############
+﻿##########
 # Celtic #
-#############
+##########
 
-# gaelic
+#Gaelic:
+#Santiago
+#Armagh
+#Scone
+#Brodgar
+#Tara
 
-dublin = { # hill of tara
-    county = c_dublin
-    barony = b_droghade
-
-    character_modifier = {
-        stewardship  = 1
-    }
-}
-
-gowrie = { # the stone of scone
-    county = c_gowrie
-
-    character_modifier = {
-		cultural_head_fascination_mult = 0.05
-		monthly_county_control_change_factor = 0.05
-    }
-}
-
-anglesey = { # Anglesey was the location of a large congregation of Druids in ancient times
-    county = c_anglesey
-    barony = b_yns_mon
-
-    character_modifier = {
-        religious_vassal_opinion = 5
-        monthly_piety_gain_mult = 0.05
-    }
-}
-
-somerset = { # glastonbury tor
-    county = c_somerset
-
-    character_modifier = {
-        county_opinion_add = 10
-    }
-}
-
-# brythonic
-
-london = { # lugdunum
-    county = c_middlesex
+scone = {
+	county = c_gowrie
+	#barony = b_coupar_angus
 
 	character_modifier = {
-		martial_per_piety_level = 1
-		knight_effectiveness_mult = 0.1
+		name = holy_site_scone_effect_name
+		monthly_prestige_gain_mult = 0.05
+		short_reign_duration_mult = -0.25
 	}
 }
 
-vannes = { # standing stones
-    county = c_vannes
+brodgar = {
+	county = c_orkney
 
-    character_modifier = {
-        direct_vassal_opinion = 5
-    }
+	character_modifier = {
+		name = holy_site_brodgar_effect_name
+		dynasty_opinion = 5
+		personal_scheme_power_add = 5
+	}
 }
 
-dijon = { # shrine to Sequana
-    county = c_dijon
+tara = {
+	county = c_dublin
+	#barony = b_drogheda
 
-    character_modifier = {
-        development_growth_factor = 0.1
-        church_holding_build_gold_cost = -0.1
-    }
+	character_modifier = {
+		name = holy_site_tara_effect_name
+		fertility = 0.10
+	}
 }
 
-# britannic
+lugo = {
+	county = c_astorga
+	barony = b_lugo
 
-wiltshire = { # stonehenge
-    county = c_wiltshire
-
-    character_modifier = {
-        religious_vassal_opinion = 5
-        learning_per_piety_level = 1
-    }
+	character_modifier = {
+		name = holy_site_lugo_effect_name
+		domain_tax_same_faith_mult = 0.1
+		monthly_piety_gain_mult = 0.1
+	}
 }
 
-# lugovism
+#Brythonic:
+#Kent
+#Scone
+#Nevet
+#Anglesey
+#Bath
 
-paris = {
-    county = c_ile_de_france
+nevet = {
+	county = c_cornouaille
 
-    character_modifier = {
-        direct_vassal_opinion = 5
-    }
+	character_modifier = {
+		name = holy_site_nevet_effect_name
+		knight_effectiveness_mult = 0.2
+	}
 }
 
-trier = {
-    county = c_trier
+anglesey = {
+	county = c_anglesey
+
+	character_modifier = {
+		name = holy_site_anglesey_effect_name
+		controlled_province_advantage = 5
+		naval_movement_speed_mult = 0.2
+	}
 }
 
-lippe = { # the externstein
-    county = c_lippe
+bath = {
+	county = c_somerset
+
+	character_modifier = {
+		name = holy_site_bath_effect_name
+		learning = 1
+		hostile_scheme_power_add = 5
+	}
 }
 
-bayeux = { # esuvii land
-    county = c_bayeux
+#Gaulish:
+#Santiago
+#Nevet
+#Bibracte
+#Glauberg
+#Glanum
+
+bibracte = {
+	county = c_chalon
+	barony = b_autun
+
+	character_modifier = {
+		name = holy_site_bibracte_effect_name
+		health = 0.1
+	}
 }
 
-guarda = { # artifacts related to Taranis have been found here
-    county = c_tui
+glauberg = {
+	county = c_marburg
+	barony = b_budingen
+
+	character_modifier = {
+		name = holy_site_glauberg_effect_name
+		forest_advantage = 5
+		skirmishers_toughness_mult = 0.1
+	}
 }
 
-karnten = { # ancient capital of the Celtic Kingdom of Noricum
-    county = c_karnten
+glanum = {
+	county = c_venaissin
+
+	character_modifier = {
+		name = holy_site_glanum_effect_name
+		different_culture_opinion = 5
+		cultural_head_fascination_mult = 0.05
+	}
 }
