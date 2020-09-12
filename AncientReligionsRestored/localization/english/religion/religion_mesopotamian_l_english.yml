@@ -58,6 +58,11 @@
  councillor_court_chaplain_mesopotamian_empire_possessive:0 "Entu-gal's"
  councillor_court_chaplain_mesopotamian_empire_female_possessive:0 "Entu-gal's"
 
+ baron_theocracy_male_mesopotamian:0 "Pašišu"
+ baron_theocracy_female_mesopotamian:0 "Pašišutu"
+ duke_theocracy_male_mesopotamian:0 "En-gal"
+ duke_theocracy_female_mesopotamian:0 "Entu-gal"
+
  # holy sites
  holy_site_niffar_name:0 "Uruk"
  holy_site_niffar_effect_name:0 "From [holy_site|E] #weak ($holy_site_niffar_name$)#!"
@@ -83,4 +88,3 @@
  parsu_pagan_negative_afterlive:0 "Ereštu"
 
  parsu_pantheon_name:1 "Igigi"
-

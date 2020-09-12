@@ -676,7 +676,7 @@ GetActualBishopTitle = {
 		}
 		localization_key = councillor_court_chaplain_west_african_religion_duchy
 	}
-	
+
 	# Tengrism
 	text = {
 		trigger = {
@@ -732,7 +732,7 @@ GetActualBishopTitle = {
 		}
 		localization_key = councillor_court_chaplain_finno_ugric_religion_duchy
 	}
-	
+
 	#Slavic
 	text = {
 		trigger = {
@@ -848,7 +848,7 @@ GetActualBishopTitle = {
 		}
 		localization_key = councillor_court_chaplain_judaism_religion_county
 	}
-	
+
 	#Hellenic
 	text = {
 		trigger = {
@@ -1107,7 +1107,7 @@ GetActualBishopTitle = {
 		trigger = { liege.highest_held_title_tier < tier_duchy faith.religion = faith:catholic.religion }
 		localization_key = councillor_court_chaplain_christian_county
 	}
-	
+
 	#Celtic
 	text = {
 		trigger = {
@@ -1123,6 +1123,37 @@ GetActualBishopTitle = {
 		}
 		localization_key = councillor_court_chaplain_celtic_county
 	}
+
+	#Mesopotamian
+	text = {
+		trigger = {
+			liege.highest_held_title_tier = tier_empire
+			faith.religion = faith:parsu_pagan.religion
+		}
+		localization_key = councillor_court_chaplain_mesopotamian_empire
+	}
+	text = {
+		trigger = {
+			liege.highest_held_title_tier = tier_kingdom
+			faith.religion = faith:parsu_pagan.religion
+		}
+		localization_key = councillor_court_chaplain_mesopotamian_kingdom
+	}
+	text = {
+		trigger = {
+			liege.highest_held_title_tier = tier_duchy
+			faith.religion = faith:parsu_pagan.religion
+		}
+		localization_key = councillor_court_chaplain_mesopotamian_duchy
+	}
+	text = {
+		trigger = {
+			liege.highest_held_title_tier < tier_duchy
+			faith.religion = faith:parsu_pagan.religion
+		}
+		localization_key = councillor_court_chaplain_mesopotamian_county
+	}
+
 
 	#Paganism
 	text = {
@@ -1190,7 +1221,7 @@ GetBirthOmen = {
 		localization_key = birth_omen_finger
 	}
 	text = {
-		localization_key = birth_omen_birthmark	
+		localization_key = birth_omen_birthmark
 	}
 }
 
