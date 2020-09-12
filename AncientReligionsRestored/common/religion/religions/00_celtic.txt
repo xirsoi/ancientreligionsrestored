@@ -378,6 +378,7 @@
 			doctrine = doctrine_pluralism_pluralistic
 			doctrine = doctrine_concubines
 			doctrine = doctrine_kinslaying_close_kin_crime
+			doctrine = doctrine_homosexuality_accepted
 
 			doctrine = tenet_sanctity_of_nature
 			doctrine = tenet_reincarnation
