@@ -76,7 +76,7 @@
  gaelic_pagan_positive_afterlife:0 "Tír na nÓg"
  gaelic_pagan_negative_afterlive:0 "Tech Duinn"
 
- gaelic_pantheon_name:1 "Tuatha Dé Danann"
+ gaelic_pantheon_name:1 "the Tuatha Dé Danann"
  god_dagda:0 "Dagda"
  god_dagda_possessive:0 "Dagda's"
  god_dagda_epithet:0 "The All-Father"
@@ -110,6 +110,11 @@
  evil_god_bres:0 "Bres"
  evil_god_bres_possessive:0 "Bres'"
  evil_god_the_fomorians:0 "The Fomorians"
+
+ gaelic_convert_to_holy_site_decision:0 "Convert to $gaelic_pagan$"
+ gaelic_convert_to_holy_site_decision.tt:0 "Publicly convert to $gaelic_pagan$"
+ gaelic_convert_to_holy_site_decision.desc:0 "#F Though officially I follow the [ROOT.Char.GetFaith.GetAdjectiveNoTooltip] faith, I cannot help but be fascinated by the $gaelic_pagan$ holy site in my realm. Perhaps the old ways truly were better?#!"
+ convert_to_holy_site_confirm:0 "Make a proclamation"
 
  # Brythonic
  god_andastre:0 "Andastre"
@@ -152,6 +157,10 @@
  brythonic_pagan_positive_afterlife:0 "Annwn"
  brythonic_pagan_negative_afterlive:0 "Caer Sidi"
 
+ brythonic_convert_to_holy_site_decision:0 "Convert to $brythonic_pagan$"
+ brythonic_convert_to_holy_site_decision.tt:0 "Publicly convert to $brythonic_pagan$"
+ brythonic_convert_to_holy_site_decision.desc:0 "#F Though officially I follow the [ROOT.Char.GetFaith.GetAdjectiveNoTooltip] faith, I cannot help but be fascinated by the $brythonic_pagan$ holy site in my realm. Perhaps the old ways truly were better?#!"
+
  # gaulish
  gaulish_pagan:1 "Andedionism"
  gaulish_pagan_adj:2 "Gaulish"
@@ -168,7 +177,7 @@
  gaulish_pagan_positive_afterlife:0 "Antumnos"
  gaulish_pagan_negative_afterlive:0 "Antumnos"
 
- gaulish_pantheon_name:1 "Deuognatoi"
+ gaulish_pantheon_name:1 "the Deuognatoi"
 
  god_esus:0 "Esus"
  god_esus_possessive:0 "Esus's"
@@ -209,3 +218,7 @@
  evil_god_sleeping_god:0 "The Sleeping God"
  gaulish_devil_name:0 "The Sleeping God"
  gaulish_devil_name_possessive:0 "The Sleeping God's"
+
+ gaulish_convert_to_holy_site_decision:0 "Convert to $gaulish_pagan$"
+ gaulish_convert_to_holy_site_decision.tt:0 "Publicly convert to $gaulish_pagan$"
+ gaulish_convert_to_holy_site_decision.desc:0 "#F Though officially I follow the [ROOT.Char.GetFaith.GetAdjectiveNoTooltip] faith, I cannot help but be fascinated by the $gaulish_pagan$ holy site in my realm. Perhaps the old ways truly were better?#!"

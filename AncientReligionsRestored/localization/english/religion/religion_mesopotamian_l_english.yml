@@ -87,4 +87,8 @@
  parsu_pagan_positive_afterlife:0 "Ereštu"
  parsu_pagan_negative_afterlive:0 "Ereštu"
 
- parsu_pantheon_name:1 "Igigi"
+ parsu_pantheon_name:1 "the Igigi"
+
+ parsu_convert_to_holy_site_decision:0 "Convert to $parsu_pagan$"
+ parsu_convert_to_holy_site_decision.tt:0 "Publicly convert to $parsu_pagan$"
+ parsu_convert_to_holy_site_decision.desc:0 "#F Though officially I follow the [ROOT.Char.GetFaith.GetAdjectiveNoTooltip] faith, I cannot help but be fascinated by the $parsu_pagan$ holy site in my realm. Perhaps the old ways truly were better?#!"

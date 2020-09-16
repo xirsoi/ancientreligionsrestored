@@ -1,0 +1,164 @@
+﻿gaelic_convert_to_holy_site_decision = {
+    picture = "gfx/interface/illustrations/decisions/decision_major_religion.dds"
+
+    major = yes
+    ai_goal = no
+    ai_check_interval = 0
+
+    selection_tooltip = gaelic_convert_to_holy_site_decision.tt
+    desc = gaelic_convert_to_holy_site_decision.desc
+    confirm_text = convert_to_holy_site_confirm
+
+    is_shown = {
+        faith:gaelic_pagan = {
+            any_holy_site = {
+                county.holder = root
+                NOT = { county.holder.faith = faith:gaelic_pagan }
+            }
+        }
+    }
+
+    is_valid = {
+        is_adult = yes
+        piety >= massive_piety_value
+    }
+
+    cost = {
+        piety = massive_piety_value
+    }
+
+    effect = {
+        set_character_faith_with_conversion = faith:gaelic_pagan
+        stress_impact = {
+			zealous = medium_stress_impact_gain	#Damn it, I was passionate about my openly-practiced faith!
+			cynical	= medium_stress_impact_gain	#Damn it, they're all basically the same! Probably!
+		}
+    }
+
+    ai_will_do = {
+        base = 0
+    }
+}
+
+brythonic_convert_to_holy_site_decision = {
+    picture = "gfx/interface/illustrations/decisions/decision_major_religion.dds"
+
+    major = yes
+    ai_check_interval = 0
+
+    selection_tooltip = brythonic_convert_to_holy_site_decision.tt
+    desc = brythonic_convert_to_holy_site_decision.desc
+    confirm_text = convert_to_holy_site_confirm
+
+    is_shown = {
+        faith:brythonic_pagan = {
+            any_holy_site = {
+                county.holder = root
+                NOT = { county.holder.faith = faith:brythonic_pagan }
+            }
+        }
+    }
+
+    is_valid = {
+        is_adult = yes
+        piety >= massive_piety_value
+    }
+
+    cost = {
+        piety = massive_piety_value
+    }
+
+    effect = {
+        set_character_faith_with_conversion = faith:brythonic_pagan
+        stress_impact = {
+			zealous = medium_stress_impact_gain	#Damn it, I was passionate about my openly-practiced faith!
+			cynical	= medium_stress_impact_gain	#Damn it, they're all basically the same! Probably!
+		}
+    }
+
+    ai_will_do = {
+        base = 0
+    }
+}
+
+gaulish_convert_to_holy_site_decision = {
+    picture = "gfx/interface/illustrations/decisions/decision_major_religion.dds"
+
+    major = yes
+    ai_check_interval = 0
+
+    selection_tooltip = gaulish_convert_to_holy_site_decision.tt
+    desc = gaulish_convert_to_holy_site_decision.desc
+    confirm_text = convert_to_holy_site_confirm
+
+    is_shown = {
+        faith:gaulish_pagan = {
+            any_holy_site = {
+                county.holder = root
+                NOT = { county.holder.faith = faith:gaulish_pagan }
+            }
+        }
+    }
+
+    is_valid = {
+        is_adult = yes
+        piety >= massive_piety_value
+    }
+
+    cost = {
+        piety = massive_piety_value
+    }
+
+    effect = {
+        set_character_faith_with_conversion = faith:gaulish_pagan
+        stress_impact = {
+			zealous = medium_stress_impact_gain	#Damn it, I was passionate about my openly-practiced faith!
+			cynical	= medium_stress_impact_gain	#Damn it, they're all basically the same! Probably!
+		}
+    }
+
+    ai_will_do = {
+        base = 0
+    }
+}
+
+parsu_convert_to_holy_site_decision = {
+    picture = "gfx/interface/illustrations/decisions/decision_major_religion.dds"
+
+    major = yes
+    ai_check_interval = 0
+
+    selection_tooltip = parsu_convert_to_holy_site_decision.tt
+    desc = parsu_convert_to_holy_site_decision.desc
+    confirm_text = convert_to_holy_site_confirm
+
+    is_shown = {
+        faith:parsu_pagan = {
+            any_holy_site = {
+                county.holder = root
+                NOT = { county.holder.faith = faith:parsu_pagan }
+            }
+        }
+    }
+
+    is_valid = {
+        is_adult = yes
+        piety >= massive_piety_value
+    }
+
+    cost = {
+        piety = massive_piety_value
+    }
+
+    effect = {
+        set_character_faith_with_conversion = faith:parsu_pagan
+        stress_impact = {
+			zealous = medium_stress_impact_gain	#Damn it, I was passionate about my openly-practiced faith!
+			cynical	= medium_stress_impact_gain	#Damn it, they're all basically the same! Probably!
+		}
+    }
+
+    ai_will_do = {
+        base = 0
+    }
+}
